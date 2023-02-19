@@ -13,6 +13,7 @@ I decided to make this extension while on a call with one of my friends, when we
 - [ ] Remove hard-coding of Shorts-related elements.
     - The elements being removed are hard-coded by JS selector. Ideally this would be done dynamically (somehow?)
 - [ ] Get the extension on the Chrome Web Store (and Firefox if possible).
+- [ ] Update icons to remove white border.
 
 ## Installation
 ~~[Download it on the Chrome Web Store](https://chrome.google.com/webstore/category/extensions)~~ 
