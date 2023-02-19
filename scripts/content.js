@@ -18,4 +18,7 @@ document.addEventListener("DOMSubtreeModified", function(event){
             await chrome.runtime.sendMessage({greeting: "shorts"});
           })();
     }
+    if (!(mini || btn || videos)) {
+        document.removeEventListener("DOMSubtreeModified", function(event) {})
+    }
 });
