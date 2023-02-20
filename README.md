@@ -6,14 +6,12 @@
 I decided to make this extension while on a call with one of my friends, when we started talking about how addicting YouTube Shorts is. This extension aims to help fight the YouTube Shorts addiction, by removing all aspects of Shorts from YouTube, along with redirecting away from `/shorts/` URLs.
 
 ## TODO
-- [ ] Allow the extension to be toggled on and off.
-    - Need to figure out how to check badgeText from within content scripts. Might use a message like with the redirect hack.
-- [x] Improve the efficiency of the extension. 
-    - Currently the function to remove Shorts-related elements is called on the event `DOMSubtreeModified` (which YouTube does a lot), so I feel it can be improved.
+- [ ] Update icons to remove white border.
 - [ ] Remove hard-coding of Shorts-related elements.
     - The elements being removed are hard-coded by JS selector. Ideally this would be done dynamically (somehow?)
 - [ ] Get the extension on the Chrome Web Store (and Firefox if possible).
-- [ ] Update icons to remove white border.
+- [x] Improve the efficiency of the extension. 
+    - Currently the function to remove Shorts-related elements is called on the event `DOMSubtreeModified` (which YouTube does a lot), so I feel it can be improved.
 
 ## Installation
 ~~[Download it on the Chrome Web Store](https://chrome.google.com/webstore/category/extensions)~~ 
